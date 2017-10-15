@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt; plt.ion()
 import matplotlib.patches as patches
 import copy
+import netgraph
+
 class Points(object):
     """
     https://stackoverflow.com/questions/21654008/matplotlib-drag-overlapping-points-interactively
@@ -78,6 +80,84 @@ class GridPointsWithGhosts(GridPoints):
             GridPoints.on_pick(self, event)
 
 
+class Graph(object):
+
+    def __init__(self, adjacency_matrix, node_positions,
+                 node_labels=None,
+                 edge_labels=None,
+                 draw_nodes_kwargs      ={},
+                 draw_edges_kwargs      ={},
+                 draw_node_labels_kwargs={},
+                 draw_edge_labels_kwargs={},
+                 ax=None):
+
+        if ax is None:
+            self.axis = plt.gca()
+        else:
+            self.axis = ax
+
+        self.adjacency_matrix        = adjacency_matrix
+        self.node_positions          = node_positions
+        self.node_labels             = node_labels
+        self.edge_labels             = edge_labels
+        self.draw_nodes_kwargs       = draw_nodes_kwargs
+        self.draw_edges_kwargs       = draw_edges_kwargs
+        self.draw_node_labels_kwargs = draw_node_labels_kwargs
+        self.draw_edge_labels_kwargs = draw_edge_labels_kwargs
+
+        self.total_nodes = len(node_positions)
+
+        # initialise graph
+        self.draw()
+
+        # hook up button release to re-draw
+        self.axis.get_figure().canvas.mpl_connect('button_release_event', self.on_release)
+
+
+    def on_release(self, event):
+        self.update_node_positions()
+        self.axis.cla()
+        self.draw()
+
+
+    def update_node_positions(self):
+        self.node_positions = np.array([artist.center for artist in self.draggable.artists])
+
+
+    def draw(self):
+        """
+        Wrapper around netgraph.
+        """
+        self.node_artists = netgraph.draw_nodes(self.node_positions,
+                                                ax=self.axis,
+                                                **self.draw_nodes_kwargs)
+
+        self.edge_artists = netgraph.draw_edges(self.adjacency_matrix,
+                                                self.node_positions,
+                                                ax=self.axis,
+                                                **self.draw_edges_kwargs)
+
+        if self.node_labels:
+            netgraph.draw_node_labels(self.node_positions,
+                                      self.node_labels,
+                                      ax=self.axis,
+                                      **self.draw_node_labels_kwargs)
+
+        if self.edge_labels:
+            netgraph.draw_edge_labels(self.adjaceny_matrix,
+                                      self.node_positions,
+                                      self.edge_labels,
+                                      ax=self.axis,
+                                      **self.draw_edge_labels_kwargs)
+
+        # make nodes artists draggable
+        node_faces = [self.node_artists[(ii, 'face')] for ii in range(self.total_nodes)]
+        self.draggable = Points(node_faces)
+
+        # update figure
+        self.axis.get_figure().canvas.draw()
+
+
 def demo_points():
 
     fig, ax = plt.subplots()
@@ -92,3 +172,22 @@ def demo_points():
 
     return dr
 
+def demo_graph():
+
+    n = 4
+    adj = np.ones((n,n))
+    adj = np.triu(adj, 1)
+    adj[adj==0] = np.nan
+    pos = np.random.rand(n,2)
+
+    # fig, ax = plt.subplots()
+    # ax.set(xlim=[-5, 5], ylim=[-5, 5])
+    g = Graph(adj, pos, draw_nodes_kwargs=dict(node_color='r'), draw_edges_kwargs=dict(draw_arrows=False))
+
+    return g
+
+
+if __name__ == '__main__':
+
+    # out = demo_points()
+    out = demo_graph()
