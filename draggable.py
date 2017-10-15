@@ -187,7 +187,7 @@ def demo_points():
     for circle in circles:
         ax.add_patch(circle)
 
-    dr = GridPointsWithGhosts(circles)
+    dr = GridPoints(circles)
 
     return dr
 
@@ -198,9 +198,16 @@ def demo_graph():
     adj = np.ones((n,n))
     adj = np.triu(adj, 1)
     adj[adj==0] = np.nan
+    # pos = np.random.rand(n,2)
     pos = np.random.rand(n,2)
+    pos[:,0] *= 10
+    pos[:,1] *= 5
 
-    g = Graph(adj, pos, draw_nodes_kwargs=dict(node_color='r'), draw_edges_kwargs=dict(draw_arrows=False))
+    fig, ax = plt.subplots()
+    ax.set(xlim=[0, 10], ylim=[0, 5])
+    g = Graph(adj, pos, ax=ax,
+              draw_nodes_kwargs=dict(node_color='r', node_size=0.25, node_edge_width=-0.01),
+              draw_edges_kwargs=dict(edge_width=0.05, draw_arrows=False))
 
     return g
 
