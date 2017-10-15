@@ -61,21 +61,22 @@ class GridPoints(Points):
         Points.on_release(self, event)
 
 
-class GridPointsWithGhosts(GridPoints):
+class PointsWithGhosts(Points):
 
     def on_release(self, event):
         self.ghost_artist.remove()
-        GridPoints.on_release(self, event)
+        self.current_artist.figure.canvas.draw()
+        Points.on_release(self, event)
 
     def on_pick(self, event):
         if self.current_artist is None:
 
             # create 'ghost' / tmp copy of current artist
             self.ghost_artist = copy.copy(event.artist)
-            # self.ghost_artist.set_alpha(0.1)
+            self.ghost_artist.set_alpha(0.1)
             event.artist.axes.add_patch(self.ghost_artist)
 
-            GridPoints.on_pick(self, event)
+            Points.on_pick(self, event)
 
 
 class Graph(object):
