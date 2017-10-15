@@ -167,7 +167,7 @@ class Graph(object):
 
         # make nodes artists draggable
         node_faces = [node_artists[(ii, 'face')] for ii in range(self.total_nodes)]
-        draggable = Points(node_faces)
+        draggable = GridPoints(node_faces)
         # draggable points need to be a member of the class;
         # otherwise, reference to them will be garbage collected once the graph is redrawn,
         # and then nothing will be actually draggable
