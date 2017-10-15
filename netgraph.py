@@ -73,8 +73,8 @@ import matplotlib.cbook as cb
 from matplotlib.colors import colorConverter, Colormap
 from matplotlib.collections import LineCollection
 
-BASE_NODE_SIZE = 1e-2
-BASE_EDGE_WIDTH = 1e-2
+BASE_NODE_SIZE = 1. # 1e-2
+BASE_EDGE_WIDTH = 1. #1e-2
 
 def draw(adjacency_matrix, node_positions=None, node_labels=None, ax=None, **kwargs):
     """
