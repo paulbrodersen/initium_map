@@ -1,0 +1,94 @@
+Missing location1Key:
+---------------------
+
+Path(4838459706441728) Hollow to QCavern
+Path(4699078659670016) Fisherman's Seaside Cottage - Fisherman's Ferry 1
+Path(5906909261987840) Volantis Docks - Fisherman's Seaside Cottage
+Path(5178599057653760) Taelhollow Hut - Professor Grenolio
+Path(4663561120907264) Taelhollow Hut
+Path(6405368457986048) Bandit Fort Courtyard - Bandit's Storage Room
+Path(6063120039542784) Secret Passage, Astronomy Alcove
+Path(4953632813350912) Astronomy Alcove, Third Floor Landing
+Path(6383179836948480) Arena Pit #3 - Arena Hallway #7
+Path(6431780613128192) Hallway #6 - Arena Pit #3
+Path(6320112855941120) Arena Pit # 3 - Arena Hallway To Reward Room
+Path(5936885173059584) Spargus - Northern Spargus Gate
+Path(5742443771199488) Oasis - Town
+Path(6744670363189248) Spargus Town Hall
+Path(6739232896319488) Spargus - Antique Shop
+Path(5967236603052032) Wastelander's Rest Stop Beer Link
+Path(5179701860499456) Tutorial 4 - Tutorial 5
+Path(5874208356696064) Tutorial 3 - Tutorial 4
+Path(5181519729000448) Drub'Lak Tribe Ogre Camp - Drub'Lak General's Quarters
+Path(6635744348078080) Nomad Conclave 2 - Empty Yurt
+Path(4676659160547328) Aera - Aera Inn
+Path(6531919743287296) Aera Inn Stairs to Basement
+Path(5749909932212224) Volantis - Volantis Inn
+Path(6677820348825600) Hidden Path Heal
+Path(5408550284165120) Tutorial 8 - Aera
+Path(4952672801652736) Tutorial 5 - Aera
+Path(5707702298738688) Aera - Aera Countryside
+Path(6650283874582528) Aera - Aera Town Hall
+Path(5458058616766464) Path to house - Chapel of Papa
+Path(6669355408424960) Aera - North West Hills
+Path(4505781470756864) Aera - Artius River
+Path(5472135664369664) Tutorial 1 - Aera
+Path(6225601275363328) Tutorial 3 - Aera
+Path(5883321394921472) Winding Marsh 5 to Winding Marsh 6
+Path(6733476745445376) coral reef -> underwater cave
+Path(4565457541791744) underwater cave -> Underwater Grotto
+Path(4862770402033664) Jungles to Abandoned Hut
+Path(5732755120062464) Ruined City -> Abandonned Manor
+Path(6310711798005760) Volantis - South Volantis Beach
+Path(5014654950572032) Volantis - Volantis Town Hall
+Path(6065586807242752) Volantis - Northern Volantis Coastline
+Path(5941904289562624) Volantis - Volantis Arena
+Path(6051887472181248) Volantis - Volantis Docks
+Path(5084972138627072) Massive Cavern - Tranquil Chamber
+Path(5955250973835264) Gulch Valley Training Grounds - Gor'Grub Food Tent
+Path(5644406560391168) Aera Swamplands, Grand Mountain
+Path(4811246138294272) Phoenix Battle
+Path(5668600916475904) Grand Mountain Summit, Grand Mountain
+Path(5710239819104256) Desert, Grand Mountain
+Path(5502313118040064) Rocky Hill 1 - Rocky Hill 2
+Path(6385702729678848) Goliath Gulch - Rocky Hill 1
+Path(5532190633099264) Aseridith Library - hidden room
+Path(6373666491203584) Aseridith Fort Tower 2 - Aseridith Fort Sorcerers' Library
+Path(5818348963102720) Aseridith Village - Aseridith Farmland
+Path(5938703878848512) Aseridith Fort West Beach - Aseridith Village
+Path(5228719246409728) Secret Ceve
+Path(6329046694625280) Mountain Plains, Hermit's Cottage
+Path(6699651513712640) Mausoleum of Gol'Shlanek 4 - Mausoleum of Gol'Shlanek 5
+
+
+Missing location2Key:
+---------------------
+
+Path(5301445911379968) Crystal Lake - Hilgadas Castle East
+Path(5297271407116288) Selene Plateau - Umbra Abode
+Path(5044238924644352) Volantis to Script Arena
+Path(6744670363189248) Spargus Town Hall
+Path(5967236603052032) Wastelander's Rest Stop Beer Link
+Path(6433136011640832) Ritual Site - Spectral Marsh
+Path(5371688510554112) Deep sea -> underwater cave
+Path(5817426914836480) Rakken Den-Crystalline Cavern
+Path(5361180182315008) Mausoleum of Gol'Shlanek 5 to Tomb of Gol'Shlanek 1
+Path(5916920302796800) Slumber Chambers, Long Hallway
+Path(6453597373988864) Volantis - Volantis Countryside
+Path(4676659160547328) Aera - Aera Inn
+Path(5749909932212224) Volantis - Volantis Inn
+Path(6650283874582528) Aera - Aera Town Hall
+Path(5235831318511616) Winding Marsh 4 to Winding Marsh 5
+Path(6642722610085888) Underwater cave - submerged gate
+Path(5179734311305216) null
+Path(5014654950572032) Volantis - Volantis Town Hall
+Path(4716533353283584) Mausoleum of Gol'Shlanek 3 - Mausoleum of Gol'Shlanek 4
+Path(5901814469754880) Hermit's Cottage - Hermit's Dark Basement
+Path(5425651547897856) Rolling Dunes 4 - Calm Cave
+Path(5577773593657344) Long Narrow Passage - Wide Hall
+Path(5852382732222464) Mineshaft 2 to Fungal Chamber
+Path(6699651513712640) Mausoleum of Gol'Shlanek 4 - Mausoleum of Gol'Shlanek 5
+Path(5351800237457408) Storage to Keep
+Path(4713116715188224) Hollow Forest Walk - Crystal Lake
+Path(5784167061127168) Eridis Peak - Eridis Lake
+Path(4631695216082944) Station to Storage
