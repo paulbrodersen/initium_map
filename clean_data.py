@@ -45,18 +45,24 @@ target_keys = [target_key for (source_key, target_key, attr) in gcc.edges(data=T
 path_keys = [attr["KEY"] for (source_key, target_key, attr) in gcc.edges(data=True)]
 
 problems = []
+problem_keys = []
 
 for ii, key in enumerate(source_keys):
     try:
         name = key_to_name[key]
     except:
-        print path_keys[ii], path_key_to_name[path_keys[ii]]
+        # print path_keys[ii], path_key_to_name[path_keys[ii]]
+        problem_keys.append(key)
 
 for ii, key in enumerate(target_keys):
     try:
         name = key_to_name[key]
     except:
-        print path_keys[ii], path_key_to_name[path_keys[ii]]
+        # print path_keys[ii], path_key_to_name[path_keys[ii]]
+        problem_keys.append(key)
+
+for key in set(problem_keys):
+    print key
 
 source_names = [key_to_name[key] for key in source_keys]
 target_names = [key_to_name[key] for key in target_keys]
