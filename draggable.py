@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt; plt.ion()
 import matplotlib.patches as patches
+import copy
 class Points(object):
     """
     https://stackoverflow.com/questions/21654008/matplotlib-drag-overlapping-points-interactively
@@ -57,4 +58,37 @@ class GridPoints(Points):
 
         Points.on_release(self, event)
 
+
+class GridPointsWithGhosts(GridPoints):
+
+    def on_release(self, event):
+        self.ghost_artist.remove()
+        GridPoints.on_release(self, event)
+        # for artist in self.artists:
+        #     print artist.center
+
+    def on_pick(self, event):
+        if self.current_artist is None:
+
+            # create 'ghost' of current artist
+            self.ghost_artist = copy.copy(event.artist)
+            # self.ghost_artist.set_alpha(0.1)
+            event.artist.axes.add_patch(self.ghost_artist)
+
+            GridPoints.on_pick(self, event)
+
+
+def demo_points():
+
+    fig, ax = plt.subplots()
+    ax.set(xlim=[-5, 5], ylim=[-5, 5])
+
+    circles = [patches.Circle((1.0, 1.0), 0.5, fc='r', alpha=0.5),
+               patches.Circle((0.0, 0.0), 0.5, fc='b', alpha=0.5)]
+    for circle in circles:
+        ax.add_patch(circle)
+
+    dr = GridPointsWithGhosts(circles)
+
+    return dr
 
