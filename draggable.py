@@ -43,3 +43,18 @@ class Points(object):
         self.current_artist.center = event.xdata + dx, event.ydata + dy
         self.current_artist.figure.canvas.draw()
 
+
+class GridPoints(Points):
+
+    def on_release(self, event):
+
+        # move artist to nearest grid point
+        x0, y0 = self.current_artist.center
+        x0 = np.int(np.round(x0))
+        y0 = np.int(np.round(y0))
+        self.current_artist.center = x0, y0
+        self.current_artist.figure.canvas.draw()
+
+        Points.on_release(self, event)
+
+
