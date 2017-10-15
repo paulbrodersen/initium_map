@@ -2,7 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt; plt.ion()
 import matplotlib.patches as patches
 import copy
-import netgraph
+import netgraph; reload(netgraph)
+
 
 class Points(object):
     """
@@ -30,7 +31,6 @@ class Points(object):
         self.current_artist = None
 
     def on_pick(self, event):
-        # print 'yay'
         if self.current_artist is None:
             self.current_artist = event.artist
             x0, y0 = event.artist.center
@@ -51,7 +51,7 @@ class GridPoints(Points):
 
     def on_release(self, event):
 
-        # move artist to nearest grid point
+        # move artist to nearest integer point
         x0, y0 = self.current_artist.center
         x0 = np.int(np.round(x0))
         y0 = np.int(np.round(y0))
@@ -66,13 +66,11 @@ class GridPointsWithGhosts(GridPoints):
     def on_release(self, event):
         self.ghost_artist.remove()
         GridPoints.on_release(self, event)
-        # for artist in self.artists:
-        #     print artist.center
 
     def on_pick(self, event):
         if self.current_artist is None:
 
-            # create 'ghost' of current artist
+            # create 'ghost' / tmp copy of current artist
             self.ghost_artist = copy.copy(event.artist)
             # self.ghost_artist.set_alpha(0.1)
             event.artist.axes.add_patch(self.ghost_artist)
@@ -81,21 +79,30 @@ class GridPointsWithGhosts(GridPoints):
 
 
 class Graph(object):
+    """
+    Essentially a wrapper around netgraph, making netgraph drawing
+    functions methods of a class such that the plot of a network can
+    be updated in response to mouse events on the plot canvas.
+    """
 
     def __init__(self, adjacency_matrix, node_positions,
                  node_labels=None,
                  edge_labels=None,
-                 draw_nodes_kwargs      ={},
-                 draw_edges_kwargs      ={},
+                 draw_nodes_kwargs={},
+                 draw_edges_kwargs={},
                  draw_node_labels_kwargs={},
                  draw_edge_labels_kwargs={},
                  ax=None):
+        """
+        See netgraph
+            .draw_nodes()
+            .draw_edges()
+            .draw_node_labels()
+            .draw_edge_labels()
+        for details on keyword arguments.
+        """
 
-        if ax is None:
-            self.axis = plt.gca()
-        else:
-            self.axis = ax
-
+        # retain input
         self.adjacency_matrix        = adjacency_matrix
         self.node_positions          = node_positions
         self.node_labels             = node_labels
@@ -105,54 +112,65 @@ class Graph(object):
         self.draw_node_labels_kwargs = draw_node_labels_kwargs
         self.draw_edge_labels_kwargs = draw_edge_labels_kwargs
 
+        # set sensible defaults if None are given
+        if ax is None:
+            self.axis = plt.gca()
+        else:
+            self.axis = ax
+        self.axis.set_aspect('equal')
+
+        if 'node_size' in draw_nodes_kwargs:
+            self.node_size = draw_nodes_kwargs['node_size']
+        else:
+            self.node_size = 3
+
+        # cache some intermediate computations
         self.total_nodes = len(node_positions)
 
         # initialise graph
         self.draw()
 
-        # hook up button release to re-draw
-        self.axis.get_figure().canvas.mpl_connect('button_release_event', self.on_release)
+        # keep axis limits constant
+        self.xlim = self.axis.get_xlim()
+        self.ylim = self.axis.get_ylim()
 
+        # hook up mouse button release to re-draw, etc
+        self.axis.get_figure().canvas.mpl_connect('button_release_event', self.on_release)
 
     def on_release(self, event):
         self.update_node_positions()
+        # TODO: should really only remove artists, such that axis properties are not cleared;
         self.axis.cla()
+        self.axis.set_xlim(self.xlim)
+        self.axis.set_ylim(self.ylim)
         self.draw()
-
 
     def update_node_positions(self):
         self.node_positions = np.array([artist.center for artist in self.draggable.artists])
 
-
     def draw(self):
-        """
-        Wrapper around netgraph.
-        """
-        self.node_artists = netgraph.draw_nodes(self.node_positions,
-                                                ax=self.axis,
-                                                **self.draw_nodes_kwargs)
 
-        self.edge_artists = netgraph.draw_edges(self.adjacency_matrix,
-                                                self.node_positions,
-                                                ax=self.axis,
-                                                **self.draw_edges_kwargs)
+        node_artists = netgraph.draw_nodes(self.node_positions,
+                                           ax=self.axis, **self.draw_nodes_kwargs)
+
+        netgraph.draw_edges(self.adjacency_matrix, self.node_positions,
+                            ax=self.axis, **self.draw_edges_kwargs)
 
         if self.node_labels:
-            netgraph.draw_node_labels(self.node_positions,
-                                      self.node_labels,
-                                      ax=self.axis,
-                                      **self.draw_node_labels_kwargs)
+            netgraph.draw_node_labels(self.node_positions, self.node_labels,
+                                      ax=self.axis, **self.draw_node_labels_kwargs)
 
         if self.edge_labels:
-            netgraph.draw_edge_labels(self.adjaceny_matrix,
-                                      self.node_positions,
-                                      self.edge_labels,
-                                      ax=self.axis,
-                                      **self.draw_edge_labels_kwargs)
+            netgraph.draw_edge_labels(self.adjaceny_matrix, self.node_positions,
+                                      self.edge_labels, ax=self.axis, **self.draw_edge_labels_kwargs)
 
         # make nodes artists draggable
-        node_faces = [self.node_artists[(ii, 'face')] for ii in range(self.total_nodes)]
-        self.draggable = Points(node_faces)
+        node_faces = [node_artists[(ii, 'face')] for ii in range(self.total_nodes)]
+        draggable = Points(node_faces)
+        # draggable points need to be a member of the class;
+        # otherwise, reference to them will be garbage collected once the graph is redrawn,
+        # and then nothing will be actually draggable
+        self.draggable = draggable
 
         # update figure
         self.axis.get_figure().canvas.draw()
@@ -172,6 +190,7 @@ def demo_points():
 
     return dr
 
+
 def demo_graph():
 
     n = 4
@@ -180,8 +199,6 @@ def demo_graph():
     adj[adj==0] = np.nan
     pos = np.random.rand(n,2)
 
-    # fig, ax = plt.subplots()
-    # ax.set(xlim=[-5, 5], ylim=[-5, 5])
     g = Graph(adj, pos, draw_nodes_kwargs=dict(node_color='r'), draw_edges_kwargs=dict(draw_arrows=False))
 
     return g

@@ -898,10 +898,11 @@ def _update_view(node_positions, node_size, ax):
     w = maxx-minx
     h = maxy-miny
     padx, pady = 0.05*w + maxs, 0.05*h + maxs
-    corners = (minx-padx, miny-pady), (maxx+padx, maxy+pady)
 
+    corners = (minx-padx, miny-pady), (maxx+padx, maxy+pady)
     ax.update_datalim(corners)
     ax.autoscale_view()
+
     ax.get_figure().canvas.draw()
     return
 
