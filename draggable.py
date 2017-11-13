@@ -120,12 +120,15 @@ class Graph(object):
         self.axis.get_figure().canvas.mpl_connect('button_release_event', self.on_release)
 
     def on_release(self, event):
-        self.update_node_positions()
         # TODO: should really only remove artists, such that axis properties are not cleared;
+        self.update_node_positions()
+        self.update_axis()
+        self.draw()
+
+    def update_axis(self):
         self.axis.cla()
         self.axis.set_xlim(self.xlim)
         self.axis.set_ylim(self.ylim)
-        self.draw()
 
     def update_node_positions(self):
         self.node_positions = np.array([artist.center for artist in self.draggable.artists])
