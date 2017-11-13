@@ -74,7 +74,8 @@ class Graph(object):
                  draw_edges_kwargs={},
                  draw_node_labels_kwargs={},
                  draw_edge_labels_kwargs={},
-                 ax=None):
+                 ax=None,
+                 point_class=Points):
         """
         See netgraph
             .draw_nodes()
@@ -93,6 +94,7 @@ class Graph(object):
         self.draw_edges_kwargs       = draw_edges_kwargs
         self.draw_node_labels_kwargs = draw_node_labels_kwargs
         self.draw_edge_labels_kwargs = draw_edge_labels_kwargs
+        self.point_class = point_class
 
         # set sensible defaults if None are given
         if ax is None:
@@ -151,7 +153,7 @@ class Graph(object):
 
         # make nodes artists draggable
         node_faces = [node_artists[(ii, 'face')] for ii in range(self.total_nodes)]
-        draggable = GridPoints(node_faces)
+        draggable = self.point_class(node_faces)
         # draggable points need to be a member of the class;
         # otherwise, reference to them will be garbage collected once the graph is redrawn,
         # and then nothing will be actually draggable
@@ -191,7 +193,7 @@ def demo_graph():
     ax.set(xlim=[0, 10], ylim=[0, 5])
     g = Graph(adj, pos, ax=ax,
               draw_nodes_kwargs=dict(node_color='r', node_size=0.25, node_edge_width=-0.01),
-              draw_edges_kwargs=dict(edge_width=0.05, draw_arrows=False))
+              draw_edges_kwargs=dict(edge_width=0.05, draw_arrows=False), point_class=GridPoints)
 
     return g
 
