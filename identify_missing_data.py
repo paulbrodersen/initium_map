@@ -25,7 +25,7 @@ path_df = path_df.loc[~remove]
 # --------------------------------------------------------------------------------
 # create network and restrict to giant component
 
-g = nx.from_pandas_dataframe(path_df, "locations1Key", "location2Key", "KEY")
+g = nx.from_pandas_dataframe(path_df, "location1Key", "location2Key", "KEY")
 # g.size()
 # 1277
 gcc = max(nx.connected_component_subgraphs(g), key=len)
@@ -44,25 +44,66 @@ source_keys = [source_key for (source_key, target_key, attr) in gcc.edges(data=T
 target_keys = [target_key for (source_key, target_key, attr) in gcc.edges(data=True)]
 path_keys = [attr["KEY"] for (source_key, target_key, attr) in gcc.edges(data=True)]
 
-problems = []
-problem_keys = []
+# problems = []
+# problem_keys = []
 
-for ii, key in enumerate(source_keys):
+# for ii, key in enumerate(source_keys):
+#     try:
+#         name = key_to_name[key]
+#     except:
+#         # print path_keys[ii], path_key_to_name[path_keys[ii]]
+#         problem_keys.append(key)
+
+# for ii, key in enumerate(target_keys):
+#     try:
+#         name = key_to_name[key]
+#     except:
+#         # print path_keys[ii], path_key_to_name[path_keys[ii]]
+#         problem_keys.append(key)
+
+# for key in set(problem_keys):
+#     print key
+
+# initialise problem data frame
+problems = dict()
+columns = ['missing', 'pathKey', 'pathName', 'location1Key', 'location1Name', 'location2Key', 'location2Name']
+for col in columns:
+    problems[col] = list()
+
+for (source_key, target_key, attr) in gcc.edges(data=True):
     try:
-        name = key_to_name[key]
-    except:
-        # print path_keys[ii], path_key_to_name[path_keys[ii]]
-        problem_keys.append(key)
+        name = key_to_name[source_key]
+    except KeyError:
+        path_key, = attr.values()
+        problems['missing'] += [source_key]
+        problems['pathKey'] += [path_key]
+        problems['pathName'] += [path_key_to_name[path_key]]
+        problems['location1Key'] += [source_key]
+        problems['location1Name'] += ['']
+        problems['location2Key'] += [target_key]
+        try:
+            problems['location2Name'] += [key_to_name[target_key]]
+        except KeyError:
+            problems['location2Name'] += ['']
 
-for ii, key in enumerate(target_keys):
+for (source_key, target_key, attr) in gcc.edges(data=True):
     try:
-        name = key_to_name[key]
-    except:
-        # print path_keys[ii], path_key_to_name[path_keys[ii]]
-        problem_keys.append(key)
+        name = key_to_name[target_key]
+    except KeyError:
+        path_key, = attr.values()
+        problems['missing'] += [target_key]
+        problems['pathKey'] += [path_key]
+        problems['pathName'] += [path_key_to_name[path_key]]
+        problems['location2Key'] += [target_key]
+        problems['location2Name'] += ['']
+        problems['location1Key'] += [source_key]
+        try:
+            problems['location1Name'] += [key_to_name[source_key]]
+        except KeyError:
+            problems['location1Name'] += ['']
 
-for key in set(problem_keys):
-    print key
+problems_df = pd.DataFrame.from_dict(problems)
+problems_df.to_csv("problems.csv", columns=columns)
 
 source_names = [key_to_name[key] for key in source_keys]
 target_names = [key_to_name[key] for key in target_keys]

@@ -1,0 +1,728 @@
+,locationKey,locationName
+0,Location(4585920951222272),Reward Room
+1,Location(6659892925431808),Rest Area
+2,Location(6171154488229888),Burning Wastes
+3,Location(5145738682564608),Underground Sea
+4,Location(6052839970832384),Hilgadas Castle East
+5,Location(5313707255529472),Baron Cricketon's Lair
+6,Location(6526462635016192),Old Mine
+7,Location(4615707669037056),Rocky Path
+8,Location(6495208090894336),Eridis Climb
+9,Location(6479938689957888),Sapphire Way
+10,Location(4969103341649920),Fisherman's Seaside Cottage
+11,Location(6462885076664320),Reward Room
+12,Location(5817171396526080),Shrine of Na'Kareth
+13,Location(6200083758710784),Lagoon's Descent
+14,Location(5634325495676928),Arena Hallway
+15,Location(5033469437542400),Narrow Passageway
+16,Location(6632273700978688),Canyon Cave Entrance
+17,Location(4887533922025472),Tunnel Climb
+18,Location(4682546134646784),Lower Crypt
+19,Location(4675290055835648),Lizardfolk Marshland
+20,Location(5843284484161536),Taelhollow Hut
+21,Location(5200647423000576),Troll Cave
+22,Location(6281973190361088),Sewer Tunnel Entrance
+23,Location(5820272351641600),General's Quarters
+24,Location(5056691190104064),Burning Wastes
+25,Location(6498136254054400),Aseridith Fort Warehouse
+26,Location(5777231648391168),Rolling Dunes
+27,Location(6510382176272384),Kobold Camp
+28,Location(5305761816641536),East Bridge
+29,Location(5268467657211904),Arena Pit
+30,Location(5052322102116352),Strange Empty Room
+31,Location(6415851780046848),Damp Tunnel
+32,Location(5818217706029056),Bandit's Storage Room
+33,Location(5169038100004864),Grand Tree Arch
+34,Location(4770947488284672),Stony Creekbed
+35,Location(4889410303164416),Rough Tunnel
+36,Location(4662743332290560),The Fork
+37,Location(5878764641714176),Museum of Marcus
+38,Location(6015068596600832),Selene Plateau
+39,Location(5711866590658560),Troll General
+40,Location(6258957962444800),Xaruk Forest
+41,Location(6166816767344640),Smoldering Mountain Ascent
+42,Location(5297402739425280),Endless Tunnel
+43,Location(4942707271139328),Aseridith Fort Courtyard
+44,Location(5422939977547776),Old Mine
+45,Location(6200435167199232),Bandit's Lair Entrance
+46,Location(4924288943783936),Volantis Arena
+47,Location(6097270970253312),Cavern Lowlands
+48,Location(5993303047143424),Forest Trail
+49,Location(5124605528768512),Atlas Trail Entrance
+50,Location(6265261703823360),Seafall
+51,Location(5399087797239808),Professor Grenolio
+52,Location(6100482340159488),Goliath Gulch Basin
+53,Location(5735665915396096),Training Center
+54,Location(5689576630779904),Immense Cavern
+55,Location(6241705674407936),Black Vanguard Camp Outskirts
+56,Location(4844226355396608),Aseridith Island Docks
+57,Location(5549972914176000),Troll Dig: Guard Station
+58,Location(5120374762110976),Second Floor Staircase
+59,Location(6306125748109312),Spargus
+60,Location(4714951546503168),Troll Dig
+61,Location(5235459155296256),Underground Cave
+62,Location(4852836756094976),Alderai Coast
+63,Location(4905123335897088),Xaruk
+64,Location(6527010146877440),Combat Site: Shadow of a Behemoth
+65,Location(5158558446911488),Nubark Mountain
+66,Location(5091279719366656),Aseridith Keep Kitchen
+67,Location(5816308691632128),Queens Chambers
+68,Location(6730589667852288),Obsidian Passageway
+69,Location(5954978829041664),Elven Grove
+70,Location(6633339873132544),First Floor Staircase
+71,Location(5576958964400128),Canyonside Plains
+72,Location(4794925902200832),Aseridith Fort Gates
+73,Location(5961128701591552),Reward Room
+74,Location(4611092757086208),Potions Laboratory
+75,Location(6641283818323968),Rocky Hill
+76,Location(6652458455531520),Aseridith Fort Warehouse
+77,Location(4884350649761792),Training Center
+78,Location(5262537041903616),Kujir Marsh
+79,Location(5820229883527168),Arena Hallway
+80,Location(5552457551708160),Hermit's Cottage
+81,Location(5092570659028992),Dark Passageway
+82,Location(6283395406495744),Merchant's Tent Interior
+83,Location(6161360358473728),Dark Room
+84,Location(5640312605114368),Tunnel Climb
+85,Location(5649584842342400),Forest Fire
+86,Location(5382551514382336),Old Mine
+87,Location(5747008444301312),Drub'Lak General's Quarters
+88,Location(5254671279063040),Old Mine
+89,Location(4918619663761408),Hatchery
+90,Location(6057435877343232),Reward Room
+91,Location(5090658121678848),Misty Forest Goblin Camp
+92,Location(5222156023889920),Ritual Site
+93,Location(6696628299759616),Nors Plains
+94,Location(5325435842330624),Guardian of the Core
+95,Location(4759477857288192),Locked Entrance
+96,Location(5557842132336640),Xaruk Forest
+97,Location(6661507124822016),Drub'Lak Chieftain's Tent
+98,Location(5093891984850944),Wet Tunnel
+99,Location(5266136275091456),Guard Tower
+100,Location(4793116924051456),Frosty's Domain
+101,Location(5433480876130304),Deep Sea
+102,Location(5816090043088896),Crypt Entrance
+103,Location(5822375170932736),Core of Smoldering Mountain
+104,Location(5286485966192640),Oasis
+105,Location(5037373275504640),Long Hallway
+106,Location(4680955232518144),Boggart Shrine
+107,Location(5428489900523520),Larvae Pit
+108,Location(6415179777572864),Dried Lakebed
+109,Location(5109983378145280),Troll Keep Storage
+110,Location(5822583015997440),Tomb of Gol'Shlanek
+111,Location(4869547509415936),Hidden Room
+112,Location(5157211167784960),Long Passage
+113,Location(5709056673054720),Eridis Forest
+114,Location(6496688202317824),Gloomy Descent
+115,Location(5282656086392832),Winding River Shrine
+116,Location(4543319202856960),Empty Yurt
+117,Location(4673239279206400),Merchant's Tent
+118,Location(6047192050565120),Combat site: Orc Prince
+119,Location(5135394614542336),Mountain Pass
+120,Location(4993608020131840),Feeding Chambers
+121,Location(6060000365510656),Ornate Passageway
+122,Location(6565922299445248),Crystal Cave Pool
+123,Location(4522237236346880),Troll Cave
+124,Location(4831433256337408),Sahuagin Lagoon
+125,Location(6346726843613184),Old Mine
+126,Location(5287122461786112),Gor'Grub Chieftain's Tent
+127,Location(6555136169082880),Long Hallway
+128,Location(6211039030935552),Aseridith Fort Outer Eastern Walls
+129,Location(6253812801077248),Sewer Tunnel
+130,Location(5279071746392064),Rolling Dunes
+131,Location(5966873809125376),Common Area
+132,Location(6563390277287936),Castle Courtyard
+133,Location(5130593837776896),Red Cliffs
+134,Location(6247590374932480),Volantis Countryside
+135,Location(5180093517266944),Sun Baked Canyon
+136,Location(4999024957980672),Gor'Grub Tribe Inner Camp
+137,Location(6626420507803648),Old Mine
+138,Location(5381878680911872),Old Mine
+139,Location(6655219060441088),Aera Inn
+140,Location(5824785070424064),Leader's Quarters
+141,Location(5134184360181760),Volantis Inn
+142,Location(5254780820652032),Shadowed Forest
+143,Location(4553554777866240),Nortion Hills
+144,Location(6553688768249856),Umbra Abode
+145,Location(4722354780372992),Emerald Isle
+146,Location(4574231350476800),Calm Pond
+147,Location(4942150822264832),Fourth Floor Landing
+148,Location(5389255752286208),Arena Hallway
+149,Location(5051742795857920),Gulchtop Fortifications
+150,Location(5493588075479040),Dark Wood Pass
+151,Location(5833351030112256),Aera Inn Basement - North
+152,Location(5791764549992448),Vall'A Cliffsides
+153,Location(5629499534213120),Aera
+154,Location(5483341094584320),Burning Wastes
+155,Location(5918123464589312),Granite Passage
+156,Location(5760751882993664),Abandonded Tribal Camp
+157,Location(6011215039954944),Weathered Road
+158,Location(6508451421224960),Old Mine
+159,Location(6451896701419520),Misty Mountain Pass
+160,Location(5710106524123136),Dense Jungle
+161,Location(6255519904301056),Blood Forest
+162,Location(4619891441401856),Magical Forest
+163,Location(4662926659026944),Aseridith Fort Guardtower Top
+164,Location(6004037778407424),Troll Caves
+165,Location(6646234595983360),Portal Room
+166,Location(5088480938950656),Kitchen
+167,Location(4701732827299840),Nors Mountain
+168,Location(5319127061233664),Dense Jungle
+169,Location(5967326629330944),Spider Cave Cavern
+170,Location(5356285457334272),Aera Inn Basement - South
+171,Location(5639445604728832),Aera Swamplands
+172,Location(6044610405072896),Taelhollow Swamp
+173,Location(6298913263321088),Fisherman's Ferry
+174,Location(6154168545050624),Armory
+175,Location(6144503274536960),Kobold Settlement
+176,Location(5501933642579968),North Bridge
+177,Location(5942116728438784),Death Valley
+178,Location(6601784795070464),Aseridith Prison Cells
+179,Location(6021008570187776),Chapel of Papa
+180,Location(5010032827826176),Submerged Gate
+181,Location(5200925509812224),Underwater Cave
+182,Location(6412814696841216),Xaruk Outskirts
+183,Location(4554371022979072),Marcusville
+184,Location(6356537624756224),Aseridith Keep Gates
+185,Location(6519200453492736),Tunnel Climb
+186,Location(4992992693190656),Secluded Spring
+187,Location(4713648428154880),Jachum's Steps
+188,Location(6097569478344704),Golden Hollow
+189,Location(5464246322200576),Skeleton Grave
+190,Location(5196041382002688),Eastern Desert
+191,Location(6394207866716160),Abandonned Manor
+192,Location(4874125034127360),Drow Entrydoor
+193,Location(4767886398717952),Aseridith Fort Tower
+194,Location(4618088644345856),Strange Rock Formation
+195,Location(4515975543128064),Combat site: Orc Prince
+196,Location(5115504887857152),Spiralling Stairway
+197,Location(5119380954284032),Ancient Tunnel
+198,Location(6373434477248512),Xaruk Forest
+199,Location(6063976345501696),Hobgoblin Tribe Campsite
+200,Location(5195262802264064),Mineshaft
+201,Location(5268675678961664),Mountainous Lookoff
+202,Location(6576470182854656),Tomb Treasure Room
+203,Location(5698166736289792),Rakken Den
+204,Location(5732417268613120),Lizardking Den
+205,Location(4993749247852544),Barracks
+206,Location(4875832497012736),Santa's Mountain
+207,Location(5759229693526016),Troll Cave
+208,Location(5972680490614784),Crypt
+209,Location(6422496643383296),Hidden Passage
+210,Location(5326622602297344),Troll Cave
+211,Location(5191466372825088),Steep Mountain Path
+212,Location(5130714677248000),Rasheek Plains
+213,Location(5842926911356928),Winding River
+214,Location(6483513767362560),Winding River
+215,Location(5634233376702464),Kujir Marsh
+216,Location(5350034434686976),Mess Hall
+217,Location(4890621339762688),Rolling Dunes Shrine
+218,Location(4932267831984128),Troll Keep Smithy
+219,Location(5328988679438336),Tunnel Climb
+220,Location(4641884412575744),Taelhollow Swamp Shrine
+221,Location(6215675825094656),Execution Chamber
+222,Location(6673370652344320),Nomad Conclave
+223,Location(6231380530823168),High Road: Ogre Pass
+224,Location(4607732636188672),Perigee Peak
+225,Location(6236159440060416),Sandy Desert Pass
+226,Location(5687441444831232),Eridis Forest
+227,Location(5940601584353280),Lost Sea Shore
+228,Location(5192139767021568),Training Center
+229,Location(4572325261344768),Alderai Trail
+230,Location(5084833928708096),Troll Cave
+231,Location(4600623388950528),Rocky Hill
+232,Location(5569495070670848),Crystalline Cavern
+233,Location(5165326169800704),Nors Mountain Shrine
+234,Location(6286945395146752),Old Mine
+235,Location(6571210251960320),Hidden Pass
+236,Location(6503793394974720),Lizardfolk Marshland
+237,Location(4750757815386112),Outer Gate
+238,Location(4945141049065472),Bandit Fort Courtyard
+239,Location(6004484656332800),Orc Camp
+240,Location(5546617318932480),Volantis
+241,Location(5395564370329600),Forest Fire
+242,Location(5027432209842176),Dense Forest
+243,Location(6483610526285824),Glacial Temple
+244,Location(6713268504625152),Old Mine
+245,Location(5807021387415552),Old Mine
+246,Location(5668612348575744),Infested Tunnel
+247,Location(6729726053318656),Gulchtop Overlook
+248,Location(5582269139910656),The Trident
+249,Location(5409986727378944),Gilded Passage Way
+250,Location(4709712366403584),Mausoleum of Gol'Shlanek
+251,Location(5032945924702208),Tranquil Chamber
+252,Location(5896838059655168),Rocky Hill
+253,Location(6737764410720256),Dwarven Ruins
+254,Location(5490011506475008),Charred Forest
+255,Location(4713019464744960),Grimy Cave
+256,Location(6507841346076672),Narrow Stairway
+257,Location(6423272366276608),Passage Fork
+258,Location(5312228555227136),Aera Inn Basement - Middle
+259,Location(5164176778461184),Undersea Grotto
+260,Location(6000580091707392),Eastern Desert
+261,Location(5402915028074496),Old Mine
+262,Location(5854320235118592),Xaruk Forest
+263,Location(6571276102533120),East Library
+264,Location(6624413564272640),Arena Pit
+265,Location(5471815967178752),Old Volantis Church Ruins
+266,Location(6061716843528192),Lost Sea
+267,Location(4951368334311424),Arena Hallway
+268,Location(5157785138364416),Kujir Marsh
+269,Location(6509379081732096),North Mountain Range Stone Tower
+270,Location(4509974331916288),Giant Turtle
+271,Location(5930610346426368),Hidden Passage
+272,Location(5454216396537856),Gor'Grub Food Tent
+273,Location(4898631959183360),Herb Garden
+274,Location(5963670924296192),Northern Volantis Coastline
+275,Location(5471573840494592),Aseridith Fort Inner Gate
+276,Location(5412534060580864),Xaruk Forest
+277,Location(5594756973854720),Ancient Cave
+278,Location(4869118343774208),Tunnel Shaft
+279,Location(6124874771726336),Warchief's Command Center
+280,Location(6098789539512320),Troll Keep
+281,Location(5022757777571840),Split Road
+282,Location(5147963085029376),Winding River
+283,Location(5056795243446272),Astronomy Alcove
+284,Location(5343021269778432),Tower Entrance
+285,Location(5935058894454784),Gate Ruins
+286,Location(5456818943819776),Abandoned Castle
+287,Location(5760946882740224),Sacred Burial Chamber
+288,Location(6294339986653184),Mass Crypt
+289,Location(5693783064707072),Hermit's Dark Basement
+290,Location(5294285612122112),Tunnel Climb
+291,Location(4834678305456128),High Road: Forest Lookout
+292,Location(4712253156753408),Dense Jungle Shrine
+293,Location(6058118315245568),The Den of a Fallen Beast
+294,Location(6286600254259200),Sahuagin Outpost
+295,Location(5649391675244544),Aera Countryside
+296,Location(5978911666339840),Fortress Entrance
+297,Location(5840939502272512),Rolling Dunes
+298,Location(4742541412925440),Temple Ruins
+299,Location(4719915504238592),Alderai Coast
+300,Location(6092789555134464),Worn Road
+301,Location(5498317707935744),Dense Mangroves
+302,Location(6491840832864256),Trail Head
+303,Location(5740053025783808),Dungeon Passageway
+304,Location(5634801146003456),Mysterious Yurt
+305,Location(6347799369089024),Sewer Bend
+306,Location(6607074943303680),Sand-Swept Plains
+307,Location(4769608749809664),Tunnel Climb
+308,Location(4902833796677632),Rocky Hill 1
+309,Location(5005335471325184),Deathly Forest
+310,Location(6374066191597568),Tower Library
+311,Location(4732909075300352),Strange Empty Room
+312,Location(6096717938163712),Seaside Landing
+313,Location(6401380170334208),Aseridith Fort Outer Western Walls
+314,Location(6448560694624256),Black Vanguard Camp
+315,Location(5688387279257600),Aseridith Fort Outer Southern Walls
+316,Location(4933975157506048),Mausoleum of Gol'Shlanek
+317,Location(4567038813011968),Burning Wastes
+318,Location(5891198245404672),Arena Pit
+319,Location(6033592878628864),Mountain Plains Shrine
+320,Location(6174236932571136),Aseridith Fort North Beach
+321,Location(5443293981704192),Rolling Dunes
+322,Location(5862164373962752),An Underground Cavern
+323,Location(5184697803472896),Chamber of Starlight
+324,Location(6227591015432192),Secluded Waterfall
+325,Location(4908030927831040),Aera Town Hall
+326,Location(6056276392148992),Sunken Ruins
+327,Location(5262209627717632),Hidden Trail
+328,Location(5305647756738560),The Drop
+329,Location(5610315319345152),Wide Hall Stairway
+330,Location(5345871483895808),Apprentice Training Room
+331,Location(5437912854298624),High Road
+332,Location(6430890083221504),Dense Jungle
+333,Location(4619217262346240),Troll Keep Altar
+334,Location(4607990200008704),Northeast Cemetery
+335,Location(5073501505454080),Old Mine
+336,Location(5882643281346560),Aseridith Village
+337,Location(5626024659255296),Secret Hideout
+338,Location(5390881838333952),Volantis River
+339,Location(6166964233830400),Old Mine Entrance
+340,Location(6068531256360960),Winding Marsh
+341,Location(5581553321115648),Orc Outpost
+342,Location(6437722859241472),Strange Empty Room
+343,Location(5437646551646208),Aseridith Fort Tower
+344,Location(6280283730477056),Aphelion Shrine Interior
+345,Location(5423123405996032),Strange Empty Room
+346,Location(5815605253111808),Reward Room
+347,Location(5343295379079168),Eridis Shores
+348,Location(5806063024603136),Black Forest
+349,Location(6548937896886272),Old Cemetery Entrance
+350,Location(4765507982983168),Troll Camp
+351,Location(5988277165228032),Tunnel Climb
+352,Location(4744890697383936),Secret Tunnel
+353,Location(4891040691519488),Massive Crater
+354,Location(6215834292715520),Orc Camp
+355,Location(4808425252847616),Aseridith Fort Church
+356,Location(4966011023392768),Alderai Coast
+357,Location(4848497063362560),Enchanted Forest
+358,Location(4921226304159744),Arena Hallway
+359,Location(5444270617001984),Third Floor Staircase
+360,Location(6145774217854976),Austere Hallway
+361,Location(5656414564909056),Aphelion Shrine Archives
+362,Location(4664650326605824),Reward Room
+363,Location(5332609262944256),Aphelion Shrine Inner Sanctum
+364,Location(5138706927190016),Ancient Phoenix Battle
+365,Location(4558049120354304),Embalming Room
+366,Location(5815082709680128),Ancient Tunnel
+367,Location(6225855610093568),Troll King's Quarters
+368,Location(4696875286396928),Old Mine
+369,Location(4714608241934336),Mystic Cave
+370,Location(5813783324262400),Winding Marsh
+371,Location(4667447694589952),Winding Marsh 5
+372,Location(5662987243225088),Lizardking Hideout
+373,Location(4534253691338752),Mausoleum of Gol'Shlanek 4
+374,Location(5691962943864832),Arena Hallway
+375,Location(5917286154108928),Tunnel Climb
+376,Location(5779535989047296),Death Row
+377,Location(4567021807206400),Old Mine
+378,Location(6452474611761152),Forest Trail
+379,Location(4634198741090304),Evergreen Trail
+380,Location(5633275214168064),Troll Keep Entryway
+381,Location(4516897327415296),Tomb of the Fallen
+382,Location(5935764762263552),Spargus Town Hall
+383,Location(6253413332942848),Tomb of Gol'Shlanek
+384,Location(5614891524161536),Small Creek
+385,Location(5570836760100864),Rolling Dunes
+386,Location(6534321435312128),Sand-Swept Valley
+387,Location(6383563180343296),Hidden Alcove
+388,Location(5654313976201216),Desert
+389,Location(5683550997708800),Frigid Stream
+390,Location(5604701584228352),Crypt
+391,Location(5319888028565504),Condemned Cave Entrance
+392,Location(6304876738904064),Terlunn Ruins
+393,Location(6689992051523584),River Rock Road
+394,Location(5532894400872448),Volantis Arena
+395,Location(4752155970109440),Ruined City
+396,Location(5528694259974144),Training Center
+397,Location(5802924630605824),Reward Room
+398,Location(6111182702772224),Hollow Forest Walk
+399,Location(6482245036802048),Aseridith Secret Staircase
+400,Location(6508838653001728),Depraved Wilds
+401,Location(6317989675139072),Sea Cave
+402,Location(5227257375490048),Underwater Grotto
+403,Location(6295812922408960),Eastern Desert
+404,Location(5659313586569216),Grand Mountain
+405,Location(6459032935071744),Grand Room
+406,Location(5457132737003520),Sacrosanct Pathway
+407,Location(6029236821295104),Volantis Docks
+408,Location(4948836791353344),Dense Jungle
+409,Location(6320860490104832),Observatory
+410,Location(6135225797574656),Icy Crevice
+411,Location(6378969398247424),Frozen Chamber
+412,Location(5153843429507072),Antique Shop
+413,Location(6062193298636800),Wasteland Overlook
+414,Location(5505750257893376),Hilgadas Castle North
+415,Location(4851296928530432),Burning Wastes
+416,Location(4792555382243328),Wastelander's Rest Stop
+417,Location(6123396480892928),Troll Dig
+418,Location(5498766890106880),Lost Sea
+419,Location(5429680583737344),Abandoned Hut
+420,Location(5709053514219520),Arena Pit
+421,Location(5077011949158400),Underdark Ledge
+422,Location(6073730381905920),Training Center
+423,Location(6522286975221760),Vault Entrance
+424,Location(5428021293219840),Underwater Lagoon
+425,Location(6426849307787264),Main Corridor
+426,Location(4550381602340864),Old Mine
+427,Location(5730683158790144),Charred Cavern
+428,Location(6436691348291584),Cliff-side Trail
+429,Location(5848363793121280),Underground Stream
+430,Location(6248509229498368),High Road: Waterfall Clearing
+431,Location(5698451486539776),Aseridith Fort Garrison
+432,Location(5369435355348992),Lizardfolk Marshland
+433,Location(5305092788453376),Forest Clearing
+434,Location(4878368132038656),Open Courtyard
+435,Location(6558996028194816),Tomb of Gol'Shlanek
+436,Location(5388596895285248),Dragon's Pass
+437,Location(4858846937874432),Elven Grove
+438,Location(4809820019359744),Spiralling Stairway
+439,Location(5855864457527296),Aphelion Shrine Sanctum
+440,Location(6016207203598336),Reward Room
+441,Location(4691376327884800),Fisherman's Ferry
+442,Location(6533289986228224),Goliath Gulch
+443,Location(5065774759673856),Orc Siege Camp
+444,Location(6722752167280640),Goliath Gulch River
+445,Location(6259323893186560),Calm Cave
+446,Location(5174341147033600),Xaruk Forest
+447,Location(5183292001222656),Sewer Fork
+448,Script(4984714595401728),Spectral Marsh
+449,Location(4878355516096512),Priest's Chamber
+450,Location(6333156464001024),Fort's Luxurious Chambers
+451,Location(5911244389482496),Massive Cavern
+452,Location(5354999749541888),Winding Marsh
+453,Location(4686268414820352),Grand Study
+454,Location(6730044487499776),Ferry
+455,Location(5077797692243968),Burial Hall
+456,Location(5379125472657408),Old Mine
+457,Location(5738689586528256),Tunnel Collapse
+458,Location(4622080312082432),Aseridith Fort Guardtower
+459,Location(6412108060164096),Lost Sea
+460,Location(6559762615369728),Old Mine
+461,Location(5694096832200704),Winding River
+462,Location(5634472569470976),Grand Mountain Summit
+463,Location(5549152453787648),Smoldering Mountain
+464,Location(5558112463355904),Eridis Peak
+465,Location(4720654552662016),Arena Hallway
+466,Location(6644088722948096),Strange Empty Room
+467,Location(4685631031607296),Well-Traveled Trail
+468,Location(4752576599818240),Cliffside Lookout
+469,Location(6062382437629952),Hobgoblin Warmonger's Tent
+470,Location(5694423706894336),Troll Cave
+471,Location(5851649117519872),Forest Path
+472,Location(4736790432841728),Aseridith Fort West Beach
+473,Location(6589065205907456),Crypt Hub
+474,Location(5005307494268928),Red Cliff's Edge
+475,Location(4879570511593472),Old Mine
+476,Location(5823413080817664),Troll Keep
+477,Location(4514173299982336),Great Northern Valley
+478,Location(5186966480224256),Hidden Room
+479,Location(4922705701765120),Stairwell
+480,Location(5323223134633984),North Mountain Range
+481,Location(5115476184137728),Smoldering Mountain Peak
+482,Location(4682816811958272),Aseridith Fort Barracks
+483,Location(4605232224403456),Ratargul Swamp
+484,Location(5371268337500160),Mystic Temple Ruins
+485,Location(6386791048282112),Wide Hall
+486,Location(6305841904353280),Arena Pit #3
+487,Location(5757649010294784),North West Hills
+488,Location(6569181374316544),Frozen Squeeze
+489,Location(5664073469394944),Aseridith Keep Grand Hall
+490,Location(5670665024176128),Cricketon Cave
+491,Location(4910863291252736),Bandit's Common Room
+492,Location(4543108142333952),Ferry
+493,Location(5943675035058176),Aseridith Fort Marketplace
+494,Location(4579063346757632),Archmage's Quarters
+495,Location(4765966608105472),Tomb Entrance
+496,Location(6456087334092800),Rolling Dunes
+497,Location(5175898320928768),Cinder Plains
+498,Location(6278529125974016),Glacial Temple: Eternal Hallway
+499,Location(6621196929990656),Volantis Town Hall
+500,Location(5638699607916544),Aseridith Knights' Quarters
+501,Location(6285907986481152),Aseridith Keep Dungeon
+502,Location(6187675022262272),Upper Level Lookout
+503,Location(5481971054018560),Bandit's Watch Tower
+504,Location(6192307049332736),Hidden Staircase
+505,Location(5058849023197184),Grave Marker
+506,Location(6687875824877568),Glittering Cavern
+507,Location(5330476979453952),Meteor Impact Site
+508,Location(5155067514585088),Wildeburn Forest
+509,Location(5354046048174080),Supply Room
+510,Location(5965801278406656),Black Mountain
+511,Location(6010831181971456),Cricketon Cave Entrance
+512,Location(4967743391531008),Alchemist Quarters
+513,Location(6636087694327808),Arena Hallway
+514,Location(5138194007851008),Hidden Pass
+515,Location(4597336033460224),Serpent Pit
+516,Location(5656451226009600),Lookout Point
+517,Location(5331082323951616),Strange Empty Room
+518,Location(4682798056079360),Lavish Pavilion
+519,Location(6742305497677824),Atlas Trail Entrance
+520,Location(4708530482839552),Feeder Stream
+521,Location(5644550022365184),Kujir Marsh
+522,Location(5709261556416512),Winding River
+523,Location(4519598845067264),Long Narrow Passage
+524,Location(6304554086039552),Hidden Path
+525,Location(5140503684186112),Troll Dig: Planning Room
+526,Location(5984081901780992),Troll Dig
+527,Location(6139491171434496),Fort Black: Panic Room
+528,Location(4927821140459520),Mausoleum Courtyard
+529,Location(5543234394652672),Pet Cemetery
+530,Location(6662145816657920),Goliath Gulch Fork
+531,Location(5232868968103936),Castle Grounds
+532,Location(6146845642326016),Crypt Entrance
+533,Location(6303104471400448),Old Mine
+534,Location(5234434534277120),Misty Mountains Basin
+535,Location(5465626376667136),Forest Fire
+536,Location(5482641499357184),Kujir Marsh
+537,Location(4891495303741440),Artius Lane
+538,Location(6664887786799104),High Road: Forest
+539,Location(4525514647666688),North Cemetery
+540,Location(5597571172532224),Arena Hallway
+541,Location(5549729958330368),Il'Kalet's Haven
+542,Location(5705433757515776),UNKNOWN
+543,Location(5741004118294528),Hidden Cave
+544,Location(6041514953146368),Forbidden Forest
+545,Location(6360201016377344),Stalagmite Cavern
+546,Location(6018852616929280),Secret Passage
+547,Location(6519651913170944),Crystal Lake
+548,Location(5512146850938880),Ferry
+549,Location(4719177888169984),Forest Fire
+550,Location(5974674766823424),Aseridith Fort Guardtower
+551,Location(5692921714049024),Old Mine
+552,Location(5755749009457152),Aseridith Keep Hallway
+553,Location(5976852092420096),Winding Marsh
+554,Location(5157551064743936),Aseridith Keep Kitchen Storage
+555,Location(5331701450407936),Large Crypt Room
+556,Location(6025776573972480),Strange Empty Room
+557,Location(6429358555136000),Eastern Desert
+558,Location(5469661702914048),Drub'Lak Chieftain's Tent
+559,Location(5816629379727360),Santa's House
+560,Location(5907800929075200),Nik's Cut-Through
+561,Location(5780588036620288),Derelict Church
+562,Location(4925241851641856),Winding River
+563,Location(5446760539619328),Troll General's Quarters
+564,Location(6729009313873920),Mineshaft
+565,Location(5205846171582464),Northern Spargus Gate
+566,Location(5345468984852480),Frozen Cavern
+567,Location(5796310611656704),Coral Reef
+568,Location(6180064303775744),Black Vanguard Camp Center
+569,Location(4526915240591360),Drub'Lak Tribe Ogre Camp
+570,Location(5355315370917888),Gol'Shlanek's Crypt
+571,Location(6708023485530112),High Road: Dense Forest
+572,Location(5425105866850304),Troll Dig
+573,Location(4756749855752192),Training Center
+574,Location(6608541406199808),Kujir Marsh
+575,Location(4725749210677248),Eridis Lake
+576,Location(5012932313743360),Winding Marsh
+577,Location(5789655459168256),Misty Cave Entrance
+578,Location(6149655664001024),Bandit's Armory
+579,Location(4538703854698496),Dense Jungle
+580,Location(6516437776072704),Cavern Atrium
+581,Location(5698410589978624),Caru Hill
+582,Location(4888673191723008),Goblin Tent
+583,Location(6078391494115328),Windy Expanse
+584,Location(6719807435046912),Aseridith Fort East Beach
+585,Location(5185517074251776),Nomad Conclave
+586,Location(6319154247237632),Rolling Dunes
+587,Location(6699801475284992),Gaping Cave
+588,Location(5164584575172608),Misty Forest
+589,Location(4800814537506816),Troll Tent
+590,Location(5484053941714944),Aseridith Fort Guardtower
+591,Location(6477065496821760),Fort Black: Throne Room
+592,Location(5855928267046912),Carved Tunnel
+593,Location(4565452399575040),Endless Tunnel
+594,Location(6312520429600768),Rocky Hill
+595,Location(5994813902028800),Ancient Tomb Entrance
+596,Location(5513622415736832),Hidden Room
+597,Location(6748028989341696),Mineshaft
+598,Location(5227660768706560),Aseridith Farmland
+599,Location(4571571273334784),West Library
+600,Location(6477636801134592),Deserted Room
+601,Location(5068160835518464),Glacial Temple Rework
+602,Location(4535180153061376),Xaruk Forest
+603,Location(6074901505507328),Drow Vault
+604,Location(6317536905789440),Aseridith Fort Secret Passage
+605,Location(6452473855213568),Troll Dig
+606,Location(4741759352963072),Cavern Mouth
+607,Location(5993355440291840),Shore Cave Entrance
+608,Location(4785609382035456),Tunnel Climb
+609,Location(4590542854815744),Rolling Dunes
+610,Location(5560262966902784),Shadowy Steppe
+611,Location(4542490997161984),Northern Crags
+612,Location(5934960010592256),Lost Sea
+613,Location(6407358202249216),Gloomy Descent
+614,Location(4800583262273536),Troll Dig
+615,Location(5554420198146048),Gulch Valley Skirmish Lines
+616,Location(5291874446737408),Mausoleum of Gol'Shlanek
+617,Location(4908926543331328),Fungal Chamber
+618,Location(6615188136525824),Family Burial Grounds
+619,Location(4749318969884672),Savannah
+620,Location(4861326027390976),Cliffside Coast
+621,Location(5968272768368640),Tunnel Fork
+622,Location(6343937617821696),Armory
+623,Location(6175040815497216),Glowworm Cavern Passage
+624,Location(6729289851469824),Nomad Camp Perimeter
+625,Location(5683997762387968),Fisherman's Ferry
+626,Location(6254417368317952),Ethereal Prison
+627,Location(5895074189672448),Ferry
+628,Location(5928176714776576),Tunnel Climb
+629,Location(6752176053420032),Hidden Cave Entrance
+630,Location(5868511773065216),Tomb of Gol'Shlanek
+631,Location(5922422976937984),Elven Grove
+632,Location(6615857679040512),Gulch Valley Training Grounds
+633,Location(5757922056339456),Dining Hall
+634,Location(5655216743514112),Pharoah's Chamber
+635,Location(6071858521178112),Tunnel Construction
+636,Location(6652731058028544),Dense Jungle
+637,Location(6282071481778176),Aseridith Fort Inner Eastern Wall
+638,Location(6176624057253888),Gor'Grub Chieftain's Tent
+639,Location(6421058082045952),Combat site: Orc Prince
+640,Location(4589389035864064),Arena Hallway
+641,Location(4958687969935360),South Volantis Beach
+642,Location(4514844928638976),Third Floor Landing
+643,Location(6206475493965824),Aseridith Fort South Beach
+644,Location(6475440403513344),Chapel Combat Room
+645,Location(4819347931660288),Hidden Room
+646,Location(5151329668300800),Eridis Island
+647,Location(5179062473457664),Kujir Marsh Entrance
+648,Location(5609234612092928),Sealed Door
+649,Location(5723273719709696),Shallow Pool
+650,Location(6366052439293952),Glacial Temple: Core Chamber
+651,Location(5156159802572800),Training Center
+652,Location(6276748270370816),Aphelion Shrine
+653,Location(5098477256179712),Elven Grove
+654,Location(4683731928875008),Mineshaft
+655,Location(6067293019176960),Eerie Glade
+656,Location(5281305327042560),Large Cave Opening
+657,Location(6652612632117248),Aseridith Secret Laboratory
+658,Location(4895729587847168),Old Mine
+659,Location(5704313116557312),High Road: Lake
+660,Location(4857543114883072),Forest Encampment
+661,Location(6530427779022848),Mountain Plains
+662,Location(4639225850363904),Aphelion Shrine Repository
+663,Location(6684012370198528),The Bay
+664,Location(4682133618556928),Aseridith Fort Courtyard
+665,Location(4979283929333760),Mineshaft
+666,Location(6189750705717248),Troll Keep Sarcophagus
+667,Location(6616739106258944),Northern Hills
+668,Location(6002887601684480),Aseridith Fort Secret Passage
+669,Location(5084846481473536),Magical Forest
+670,Location(6653464683741184),Winding River
+671,Location(5951574616047616),Goliath Gulch Descent
+672,Location(6471688447328256),The Tomb
+673,Location(4848152773394432),Blazing Pit
+674,Location(6206022230212608),Sewer Tunnel
+675,Location(4557967676932096),Maelstrom
+676,Location(5054881141882880),Gulchtop Climb
+677,Location(5014172941156352),High Road: Waterfall
+678,Location(5268847954755584),Reward Room
+679,Location(5084569214648320),Training Center
+680,Location(6387411726630912),Alderai Trail
+681,Location(5312945761288192),Eastern Desert
+682,Location(6638873742409728),Aseridith Commander's Quarters
+683,Location(4625866026123264),Reward Room
+684,Location(4979362051391488),Subterranean Beach
+685,Location(5691920898588672),Tunnel Climb
+686,Location(5059145942433792),Grand Tree
+687,Location(5566908544319488),Drider Spawning Ground
+688,Location(4550204267429888),Shrine of Papa's Spirit
+689,Location(4942631349518336),Winding Marsh
+690,Location(6274138448855040),Underwater Cave
+691,Location(6128325270437888),Dark Corridor
+692,Location(4939142698106880),Great Goblin Fortress of Xaruk
+693,Location(6519992925814784),Northern Waterfall
+694,Location(5830034763808768),Aseridith Fort Sorcerers' Quarters
+695,Location(6132749391888384),Crypt Entrance
+696,Location(5612169386262528),Tomb Center
+697,Location(5857622832971776),City Outskirts
+698,Location(5703004724658176),Spectral Marsh
+699,Location(5723021814267904),Marble Entryway
+700,Location(6010500529782784),High Road: Swampland
+701,Location(6118406474694656),Endless Tunnel
+702,Location(6546560360906752),Slumber Chambers
+703,Location(5188914373459968),Drake Cave
+704,Location(4703217505009664),Dead Jungles
+705,Location(5897906640912384),Troll Cave Entrance
+706,Location(5473101529743360),Old Mine
+707,Location(6196749400276992),Spectral Marsh
+708,Location(5563011707174912),Emerald Isle Shores
+709,Location(4692368319053824),Cinder Mountain Range
+710,Location(6521777110908928),Artius River
+711,Location(6530123043438592),Knights Quarters
+712,Location(4790552935792640),Pantry
+713,Location(6751859294863360),Mineshaft
+714,Location(6493907437223936),Claw Marked Crevice
+715,Location(5236629128085504),Upper Crypt
+716,Location(6293882619822080),Summoning Chamber
+717,Location(6255055358394368),Nomad Camp Commons
+718,Location(4883995022065664),
+719,Location(6519823672803328),The Depths
+720,Location(6740904330133504),Troll Keep Hub
+721,Location(5490839199416320),Overgrown Path
+722,Location(6583792934322176),Aseridith Fort Inner Western Wall
+723,Location(4867564377210880),Vall'A Village
+724,Location(5296596736540672),Upper Crypt
+725,Location(6486746360971264),Mausoleum of Gol'Shlanek 5
+726,Location(5909134097514496),Second Floor Landing

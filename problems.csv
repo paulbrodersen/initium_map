@@ -1,0 +1,87 @@
+,missing,pathKey,pathName,location1Key,location1Name,location2Key,location2Name
+0,Location(6659892925431808),Path(4838459706441728),Hollow to QCavern,Location(6659892925431808),,Location(4522237236346880),Troll Cave
+1,Location(4969103341649920),Path(4699078659670016),Fisherman's Seaside Cottage - Fisherman's Ferry 1,Location(4969103341649920),,Location(4691376327884800),Fisherman's Ferry
+2,Location(4969103341649920),Path(5906909261987840),Volantis Docks - Fisherman's Seaside Cottage,Location(4969103341649920),,Location(6029236821295104),Volantis Docks
+3,Location(5843284484161536),Path(5178599057653760),Taelhollow Hut - Professor Grenolio,Location(5843284484161536),,Location(5399087797239808),
+4,Location(5843284484161536),Path(4663561120907264),Taelhollow Hut,Location(5843284484161536),,Location(6044610405072896),Taelhollow Swamp
+5,Location(5818217706029056),Path(6405368457986048),Bandit Fort Courtyard - Bandit's Storage Room,Location(5818217706029056),,Location(4945141049065472),Bandit Fort Courtyard
+6,Location(6305841904353280),Path(6383179836948480),Arena Pit #3 - Arena Hallway #7,Location(6305841904353280),,Location(5820229883527168),Arena Hallway
+7,Location(6305841904353280),Path(6431780613128192),Hallway #6 - Arena Pit #3,Location(6305841904353280),,Location(4951368334311424),Arena Hallway
+8,Location(6305841904353280),Path(6320112855941120),Arena Pit # 3 - Arena Hallway To Reward Room,Location(6305841904353280),,Location(6636087694327808),Arena Hallway
+9,Location(6306125748109312),Path(5742443771199488),Oasis - Town,Location(6306125748109312),,Location(5286485966192640),Oasis
+10,Location(6306125748109312),Path(6744670363189248),Spargus Town Hall,Location(6306125748109312),,Location(5935764762263552),
+11,Location(6306125748109312),Path(5936885173059584),Spargus - Northern Spargus Gate,Location(6306125748109312),,Location(5205846171582464),Northern Spargus Gate
+12,Location(6306125748109312),Path(5967236603052032),Wastelander's Rest Stop Beer Link,Location(6306125748109312),,Location(4792555382243328),
+13,Location(6306125748109312),Path(6739232896319488),Spargus - Antique Shop,Location(6306125748109312),,Location(5153843429507072),Antique Shop
+14,Location(4884350649761792),Path(5179701860499456),Tutorial 4 - Tutorial 5,Location(4884350649761792),,Location(5735665915396096),Training Center
+15,Location(4884350649761792),Path(5874208356696064),Tutorial 3 - Tutorial 4,Location(4884350649761792),,Location(5156159802572800),Training Center
+16,Location(5747008444301312),Path(5181519729000448),Drub'Lak Tribe Ogre Camp - Drub'Lak General's Quarters,Location(5747008444301312),,Location(4526915240591360),Drub'Lak Tribe Ogre Camp
+17,Location(4543319202856960),Path(6635744348078080),Nomad Conclave 2 - Empty Yurt,Location(4543319202856960),,Location(6673370652344320),Nomad Conclave
+18,Location(6655219060441088),Path(4676659160547328),Aera - Aera Inn,Location(6655219060441088),,Location(5629499534213120),
+19,Location(6655219060441088),Path(6531919743287296),Aera Inn Stairs to Basement,Location(6655219060441088),,Location(5833351030112256),Aera Inn Basement - North
+20,Location(5134184360181760),Path(5749909932212224),Volantis - Volantis Inn,Location(5134184360181760),,Location(5546617318932480),
+21,Location(4574231350476800),Path(6677820348825600),Hidden Path Heal,Location(4574231350476800),,Location(6304554086039552),Hidden Path
+22,Location(5629499534213120),Path(5408550284165120),Tutorial 8 - Aera,Location(5629499534213120),,Location(5528694259974144),Training Center
+23,Location(5629499534213120),Path(4952672801652736),Tutorial 5 - Aera,Location(5629499534213120),,Location(5735665915396096),Training Center
+24,Location(5629499534213120),Path(5707702298738688),Aera - Aera Countryside,Location(5629499534213120),,Location(5649391675244544),Aera Countryside
+25,Location(5629499534213120),Path(6650283874582528),Aera - Aera Town Hall,Location(5629499534213120),,Location(4908030927831040),
+26,Location(5629499534213120),Path(5458058616766464),Path to house - Chapel of Papa,Location(5629499534213120),,Location(6021008570187776),
+27,Location(5629499534213120),Path(6669355408424960),Aera - North West Hills,Location(5629499534213120),,Location(5757649010294784),North West Hills
+28,Location(5629499534213120),Path(4505781470756864),Aera - Artius River,Location(5629499534213120),,Location(6521777110908928),Artius River
+29,Location(5629499534213120),Path(5472135664369664),Tutorial 1 - Aera,Location(5629499534213120),,Location(6073730381905920),Training Center
+30,Location(5629499534213120),Path(6225601275363328),Tutorial 3 - Aera,Location(5629499534213120),,Location(5156159802572800),Training Center
+31,Location(5200925509812224),Path(6733476745445376),coral reef -> underwater cave,Location(5200925509812224),,Location(5796310611656704),Coral Reef
+32,Location(5200925509812224),Path(4565457541791744),underwater cave -> Underwater Grotto,Location(5200925509812224),,Location(5227257375490048),Underwater Grotto
+33,Location(6394207866716160),Path(5732755120062464),Ruined City -> Abandonned Manor,Location(6394207866716160),,Location(4752155970109440),Ruined City
+34,Location(5546617318932480),Path(6310711798005760),Volantis - South Volantis Beach,Location(5546617318932480),,Location(4958687969935360),South Volantis Beach
+35,Location(5546617318932480),Path(5014654950572032),Volantis - Volantis Town Hall,Location(5546617318932480),,Location(6621196929990656),
+36,Location(5546617318932480),Path(6065586807242752),Volantis - Northern Volantis Coastline,Location(5546617318932480),,Location(5963670924296192),Northern Volantis Coastline
+37,Location(5546617318932480),Path(5941904289562624),Volantis - Volantis Arena,Location(5546617318932480),,Location(5532894400872448),Volantis Arena
+38,Location(5546617318932480),Path(6051887472181248),Volantis - Volantis Docks,Location(5546617318932480),,Location(6029236821295104),Volantis Docks
+39,Location(5032945924702208),Path(5084972138627072),Massive Cavern - Tranquil Chamber,Location(5032945924702208),,Location(5911244389482496),Massive Cavern
+40,Location(5454216396537856),Path(5955250973835264),Gulch Valley Training Grounds - Gor'Grub Food Tent,Location(5454216396537856),,Location(6615857679040512),Gulch Valley Training Grounds
+41,Location(5056795243446272),Path(6063120039542784),"Secret Passage, Astronomy Alcove",Location(5056795243446272),,Location(6018852616929280),Secret Passage
+42,Location(5056795243446272),Path(4953632813350912),"Astronomy Alcove, Third Floor Landing",Location(5056795243446272),,Location(4514844928638976),Third Floor Landing
+43,Location(5659313586569216),Path(4811246138294272),Phoenix Battle,Location(5659313586569216),,Location(5138706927190016),Ancient Phoenix Battle
+44,Location(5659313586569216),Path(5668600916475904),"Grand Mountain Summit, Grand Mountain",Location(5659313586569216),,Location(5634472569470976),Grand Mountain Summit
+45,Location(5659313586569216),Path(5710239819104256),"Desert, Grand Mountain",Location(5659313586569216),,Location(5654313976201216),Desert
+46,Location(4902833796677632),Path(6385702729678848),Goliath Gulch - Rocky Hill 1,Location(4902833796677632),,Location(6533289986228224),Goliath Gulch
+47,Location(6374066191597568),Path(5532190633099264),Aseridith Library - hidden room,Location(6374066191597568),,Location(4819347931660288),Hidden Room
+48,Location(6374066191597568),Path(6373666491203584),Aseridith Fort Tower 2 - Aseridith Fort Sorcerers' Library,Location(6374066191597568),,Location(5437646551646208),Aseridith Fort Tower
+49,Location(5882643281346560),Path(5938703878848512),Aseridith Fort West Beach - Aseridith Village,Location(5882643281346560),,Location(4736790432841728),Aseridith Fort West Beach
+50,Location(5882643281346560),Path(5818348963102720),Aseridith Village - Aseridith Farmland,Location(5882643281346560),,Location(5227660768706560),Aseridith Farmland
+51,Location(5626024659255296),Path(5228719246409728),Secret Ceve,Location(5626024659255296),,Location(5965801278406656),Black Mountain
+52,Location(5552457551708160),Path(6329046694625280),"Mountain Plains, Hermit's Cottage",Location(5552457551708160),,Location(6530427779022848),Mountain Plains
+53,Location(4534253691338752),Path(6699651513712640),Mausoleum of Gol'Shlanek 4 - Mausoleum of Gol'Shlanek 5,Location(4534253691338752),,Location(6486746360971264),
+54,Location(5429680583737344),Path(4862770402033664),Jungles to Abandoned Hut,Location(5429680583737344),,Location(4703217505009664),Dead Jungles
+55,Location(4667447694589952),Path(5883321394921472),Winding Marsh 5 to Winding Marsh 6,Location(4667447694589952),,Location(5012932313743360),Winding Marsh
+56,Location(6259323893186560),Path(5425651547897856),Rolling Dunes 4 - Calm Cave,Location(6259323893186560),,Location(5840939502272512),Rolling Dunes
+57,Location(6386791048282112),Path(5577773593657344),Long Narrow Passage - Wide Hall,Location(6386791048282112),,Location(4519598845067264),Long Narrow Passage
+58,Location(4908926543331328),Path(5852382732222464),Mineshaft 2 to Fungal Chamber,Location(4908926543331328),,Location(4979283929333760),Mineshaft
+59,Location(6519651913170944),Path(5301445911379968),Crystal Lake - Hilgadas Castle East,Location(6052839970832384),Hilgadas Castle East,Location(6519651913170944),
+60,Location(6553688768249856),Path(5297271407116288),Selene Plateau - Umbra Abode,Location(6015068596600832),Selene Plateau,Location(6553688768249856),
+61,Location(5546617318932480),Path(5044238924644352),Volantis to Script Arena,Location(4924288943783936),Volantis Arena,Location(5546617318932480),
+62,Location(5935764762263552),Path(6744670363189248),Spargus Town Hall,Location(6306125748109312),,Location(5935764762263552),
+63,Location(4792555382243328),Path(5967236603052032),Wastelander's Rest Stop Beer Link,Location(6306125748109312),,Location(4792555382243328),
+64,Location(4902833796677632),Path(5502313118040064),Rocky Hill 1 - Rocky Hill 2,Location(6641283818323968),Rocky Hill,Location(4902833796677632),
+65,Location(5569495070670848),Path(5817426914836480),Rakken Den-Crystalline Cavern,Location(5428489900523520),Larvae Pit,Location(5569495070670848),
+66,Location(6486746360971264),Path(5361180182315008),Mausoleum of Gol'Shlanek 5 to Tomb of Gol'Shlanek 1,Location(5822583015997440),Tomb of Gol'Shlanek,Location(6486746360971264),
+67,Location(6546560360906752),Path(5916920302796800),"Slumber Chambers, Long Hallway",Location(6555136169082880),Long Hallway,Location(6546560360906752),
+68,Location(5546617318932480),Path(6453597373988864),Volantis - Volantis Countryside,Location(6247590374932480),Volantis Countryside,Location(5546617318932480),
+69,Location(5629499534213120),Path(4676659160547328),Aera - Aera Inn,Location(6655219060441088),,Location(5629499534213120),
+70,Location(5546617318932480),Path(5749909932212224),Volantis - Volantis Inn,Location(5134184360181760),,Location(5546617318932480),
+71,Location(4908030927831040),Path(6650283874582528),Aera - Aera Town Hall,Location(5629499534213120),,Location(4908030927831040),
+72,Location(4667447694589952),Path(5235831318511616),Winding Marsh 4 to Winding Marsh 5,Location(6068531256360960),Winding Marsh,Location(4667447694589952),
+73,Location(5659313586569216),Path(5644406560391168),"Aera Swamplands, Grand Mountain",Location(5639445604728832),Aera Swamplands,Location(5659313586569216),
+74,Location(6274138448855040),Path(6642722610085888),Underwater cave - submerged gate,Location(5010032827826176),Submerged Gate,Location(6274138448855040),
+75,Location(5705433757515776),Path(5179734311305216),null,Location(5940601584353280),Lost Sea Shore,Location(5705433757515776),
+76,Location(6621196929990656),Path(5014654950572032),Volantis - Volantis Town Hall,Location(5546617318932480),,Location(6621196929990656),
+77,Location(4534253691338752),Path(4716533353283584),Mausoleum of Gol'Shlanek 3 - Mausoleum of Gol'Shlanek 4,Location(4709712366403584),Mausoleum of Gol'Shlanek,Location(4534253691338752),
+78,Script(4984714595401728),Path(6433136011640832),Ritual Site - Spectral Marsh,Location(5222156023889920),Ritual Site,Script(4984714595401728),
+79,Location(6274138448855040),Path(5371688510554112),Deep sea -> underwater cave,Location(5433480876130304),Deep Sea,Location(6274138448855040),
+80,Location(5552457551708160),Path(5901814469754880),Hermit's Cottage - Hermit's Dark Basement,Location(5693783064707072),Hermit's Dark Basement,Location(5552457551708160),
+81,Location(6486746360971264),Path(6699651513712640),Mausoleum of Gol'Shlanek 4 - Mausoleum of Gol'Shlanek 5,Location(4534253691338752),,Location(6486746360971264),
+82,Location(4800583262273536),Path(5351800237457408),Storage to Keep,Location(5633275214168064),Troll Keep Entryway,Location(4800583262273536),
+83,Location(6519651913170944),Path(4713116715188224),Hollow Forest Walk - Crystal Lake,Location(6111182702772224),Hollow Forest Walk,Location(6519651913170944),
+84,Location(4725749210677248),Path(5784167061127168),Eridis Peak - Eridis Lake,Location(5558112463355904),Eridis Peak,Location(4725749210677248),
+85,Location(4800583262273536),Path(4631695216082944),Station to Storage,Location(5549972914176000),Troll Dig: Guard Station,Location(4800583262273536),
